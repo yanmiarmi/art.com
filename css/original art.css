@@ -1,0 +1,427 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.simple{
+	width: 92.5%;
+	height: 310px;
+	border-bottom: 1px solid #eee;
+	padding:20px 0;
+}
+.chose-left{
+	width: 50%;
+	float: left;
+	padding-left: 7.5%;
+	font-size: 0;
+	line-height: 80px;
+	box-sizing: border-box;
+}
+.chose-left .price{
+	position: relative;
+}
+.chose-left .size{
+	position: relative;
+}
+.chose-left b{
+	font-size: 14px;
+	margin-right: 50px;
+}
+.chose-left .price i{
+	font-size: 12px;
+	position: absolute;
+	top: 15px;
+	width: 0;
+	height: 0;
+	color:#666;
+	margin-left: -30px;
+	font-style: inherit;
+}
+.chose-left .size i{
+	font-size: 12px;
+	position: absolute;
+	top: 15px;
+	width: 0;
+	height: 0;
+	color:#666;
+	margin-left: -15px;
+	font-style: inherit;
+}
+.chose-left .price .frist{
+	margin-left: -5px;
+}
+.chose-left .size .frist{
+	margin-left: -5px;
+}
+.chose-left .price .last{
+	margin-left: -15px;
+}
+.chose-left .size .last{
+	margin-left: -15px;
+}
+.chose-left .price span,.size span{
+	display: inline-block;
+	width: 13%;
+	height: 16px;
+	background: #ddd;
+	margin-right: 2px;
+}
+.chose-left .price span:hover{
+	background: #c0c0c0;
+}
+.chose-left .size span:hover{
+	background: #c0c0c0;
+}
+.chose-left .color span{
+	display: inline-block;
+	width: 13%;
+	height: 16px;
+	margin-right: 2px;
+	box-sizing: border-box;
+}
+.chose-left .color span:hover{
+	opacity: 0.8;
+}
+.chose-left .color .red{
+	background: #E73233;
+}
+.chose-left .color .yel{
+	background: #FFEA03;
+}
+.chose-left .color .gre{
+	background: #32CC66;
+}
+.chose-left .color .blu{
+	background: #0099FF;
+}
+.chose-left .color .blu{
+	background: #0099FF;
+}
+.chose-left .color .gra img{
+	width: 100%;
+	height: 100%;
+}
+.chose-left .shape{
+	line-height: 40px;
+	position: relative;
+}
+.chose-left .shape a{
+	margin-top: -6px;
+	margin-right: 10%;
+}
+.chose-left .shape .square:hover{
+	background: #c0c0c0;
+}
+.chose-left .shape .la_Rec:hover{
+	background: #c0c0c0;
+}
+.chose-left .shape .lo_Rec:hover{
+	background: #c0c0c0;
+}
+.chose-left .shape .round:hover{
+	background: #c0c0c0;
+}
+.chose-left .shape .square{
+	display:inline-block;
+	border: 1px solid #666;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+	box-sizing: border-box;
+}
+.chose-left .shape .la_Rec{
+	width: 32px;
+	height: 16px;
+	box-sizing: border-box;
+	vertical-align: middle;
+	border: 1px solid #666;
+	display:inline-block;
+}
+
+.chose-left .shape .lo_Rec{
+	width: 16px;
+	height: 32px;
+	box-sizing: border-box;
+	vertical-align: middle;
+	border: 1px solid #666;
+	display:inline-block;
+}
+.chose-left .shape .round{
+	display:inline-block;
+	border: 1px solid #666;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+	box-sizing: border-box;
+	border-radius:50%;
+}
+.chose-left .shape .irregular{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	position: relative;
+}
+.chose-left .shape .irregular .deaful{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 10px;
+}
+.chose-left .shape .irregular .hover{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 10px;
+	display: none;
+}
+.chose-left .shape .irregular:hover .hover{
+	display: block;
+}
+.choice_middle{
+	width: 17.5%;
+	float: left;
+}
+.choice_middle .space{
+	width: 62.5%;
+}
+.choice_middle h3{
+	font-size: 13px;
+	line-height: 80px;
+}
+.choice_middle a{
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	color:#666;
+	line-height: 36px;
+}
+.choice_right{
+	width: 32.5%;
+	border-left: 1px solid #eee;
+	box-sizing: border-box;
+}
+.choice_right .text{
+	width: 30%;
+	margin-top: 35px;
+}
+.choice_right .text div{
+	margin-bottom: 30px;
+}
+.choice_right span{
+	display: block;
+	/*text-decoration: none;*/
+	font-size: 14px;
+	color:#666;
+	line-height: 30px;
+	text-align: center;
+}
+.choice_right .picr{
+	width: 70%;
+	height: 274px;
+	margin-top: 18px;
+	background: pink;
+	position: relative;
+}
+.choice_right .show-wall{
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	padding-top: 30px;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.choice_right .show-wall .cover_hidden{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background:url("https://cdn.ywart.com/content/image/WallPaper/line-bg.png") repeat-x;
+}
+.choice_right .show-wall .pocimg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url("https://cdn.ywart.com/material/goodsbuy/20160727/02.jpg");
+	background-size:cover;
+}
+.choice_right .show-wall .pocimg1{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url("https://cdn.ywart.com/material/goodsbuy/20160727/04.jpg");
+	background-size:cover;
+}
+.choice_right .show-wall .pocimg2{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url("https://cdn.ywart.com/material/goodsbuy/20160727/05.jpg");
+	background-size:cover;
+}
+.choice_right .show-wall .pocimg3{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url("https://cdn.ywart.com/material/goodsbuy/20160727/03.jpg");
+	background-size:cover;
+}
+.choice_right .show-wall h2{
+	text-align: center;
+	font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    z-index: 2;
+}
+.choice_right .show-wall .line{
+	display: block;
+	background: #fff;
+	border:none;
+	width: 30%;
+	height: 1px;
+	position: relative;
+	z-index: 2;
+}
+.choice_right .show-wall p{
+	position: relative;
+	font-size: 14px;
+	width: 90%;
+	margin:0 auto;
+	line-height: 26px;
+}
+.buy-search{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #eee;
+	padding:0 7.5%;
+	box-sizing: border-box; 
+	position: relative;
+}
+.search-inp{
+	height: 28px;
+	float: left;
+	margin-top: 12px;
+}
+.search-inp img{
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin-top: 8px;
+}
+.search-inp input{
+	float: left;
+	margin-top: 8px;
+	padding-left: 8px;
+	font-size: 14px;
+	border:none;
+	outline: none;
+	margin-left:5px;
+}
+.hiji{
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -70px;
+	width: 140px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #eee;
+	font-size: 14px;
+	color:#333;
+	text-decoration: none;
+	text-align: center;
+	border-radius:0 0 4px 4px;
+}
+.content{
+	width: 100%;
+	padding: 14px 0 50px;
+}
+.content .contyw,.contyc{
+	font-size: 12px;
+	text-decoration:none;
+	color:#666;
+}
+.content .contyw{
+	margin-left: 20px;
+	}
+.filter{
+	max-width: 1200px;
+	margin:0 auto 30px;
+	padding-right: 20px;
+	box-sizing: border-box;
+	text-align: right;
+}
+.filter select{
+	width: 100px;
+	height: 30px;
+	outline: none;
+	font-size: 12px;
+	color: #666;
+	border: 1px solid #eee;
+	border-radius:4px;
+	-webkit-appearance:none;
+	background:url(https://cdn.ywart.com/content/image/select_bg.png) no-repeat right #fff;
+}
+.container{
+	max-width: 1200px;
+	margin:0 auto;
+	position: relative;
+}
+.grid-item{
+	width: 280px;
+	min-height: 100px;
+	margin:20px 46px 40px 46px;
+}
+.grid-item a,img{
+	display: block;
+	width: 100%;
+}
+.grid-item .thumb{
+	transition: 0.2s;
+}
+.grid-item .thumb:hover{
+	box-shadow: 0 0 15px 1px #ddd;
+}
+.detail{
+	padding-top: 12px;
+	font-size: 12px;
+	padding
+}
+.detail p{
+	line-height: 20px;
+	padding:0 20px;
+}
+.detail p a{
+	text-decoration: none;
+	color:#666;
+	font-style: italic;
+}
+.detail p span{
+	color:#666;
+	font-style: italic;
+}
+.container .grid-item .detail p:nth-child(1){
+	margin-bottom: 8px;
+}
+.container .grid-item .detail p:nth-child(1) a{
+	color:#000;
+	font-weight: 600;
+	font-style: normal;
+}
+.container .grid-item .detail .price{
+	font-size: 14px;
+	font-style: normal;
+	color:#000;
+	margin: 10px 0 20px 0;
+}

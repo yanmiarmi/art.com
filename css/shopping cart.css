@@ -1,0 +1,197 @@
+/*购物车*/
+.buy-cart{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+    padding: 80px 0 200px;
+}
+.buy-carthead{
+	width: 100%;
+	padding-bottom: 10px;
+	font-size:24px;
+	border-bottom: 1px solid #ccc;
+}
+.buy-carthead h1{
+	font-size: 24px;
+	display: inline-block;
+	color: #333;
+	font-weight: bold;
+}
+.buy-carthead span{
+	font-weight: 700;
+}
+.buy_cartmain{
+	height: 44px;
+	/*line-height: 44px;*/
+	padding: 20px 20px 20px 28px;
+}
+.buy_cartmain .buy_cart_choice_all{
+	font-size: 12px;
+    color: #666;
+    text-align: left;
+    padding-left: 10px;
+    /*line-height: 40px;*/
+    height: 44px;
+}
+.buy_cartmain .jiesuanbox{
+	float: right;
+}
+.buy_cartmain .shopping{
+	display: inline-block;
+	height: 44px;
+	line-height: 44px;
+	margin-right: 20px;
+}
+.buy_cartmain .price{
+	display: inline-block;
+	font-size: 18px;
+	color: red;
+}
+.buy_cartmain .zongj{
+	width: 140px;
+	line-height: 36px;
+	background: #ccc;
+	outline: none;
+	border: none;
+	margin-left: 20px;
+	font-size: 16px;
+	color:#fff;
+	vertical-align: top;
+}
+ .allchoice{
+	float:left;
+}
+.allchoice input{
+	width:17px;
+	height:15px;
+	vertical-align: middle;
+}
+.shop-list{
+	width:100%; 
+}
+.shop-list .item{
+	width:100%;
+	padding: 20px;
+    padding-left: 45px;
+    border: 2px solid #000;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+.shop-list .item .choice{
+	width: 16px;
+    height: 14px;
+    float: left;
+    margin-left: -29px;
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+.shop-list .item .choice input{
+	display: block;
+	width:17px;
+	height:15px;
+}
+.shop-list .item .infobox{
+	position: relative;
+    height: 120px;
+    width: 100%;
+    float: left;
+}
+.shop-list .item .infobox .img{
+	width: 120px;
+    height: 120px;
+    float: left;
+    overflow: hidden;
+    margin-right: 40px;
+    position: relative;
+}
+.shop-list .item .infobox .img img{
+	width:100%;
+	height:100%;
+}
+.shop-list .item .infobox .detail{
+	max-width: 50%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+.shop-list .item .infobox .detail .title{
+	color: #000;
+    padding-bottom: 8px;
+    font-size: 16px;
+    overflow: hidden;
+    line-height: 20px;
+    height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.shop-list .item .infobox .detail p{
+	color: #a8a8a8;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+.shop-list .item .infobox .infobox-right{
+	float: right;
+}
+.shop-list .item .infobox .leave{
+	color: #333;
+	bottom:0;
+	right:0;
+	font-size: 12px;
+	position:absolute;
+	display: none;
+}
+.buy_cartbottom{
+	width: 100%;
+	max-width: 960px;
+	height: 44px;
+	line-height: 44px;
+	position: fixed;
+	padding-left: 10px;
+	bottom: 0;
+}
+.backg{
+	background: #f8f8f8;
+
+}
+.yichu{
+	margin-left: 80px;
+	text-decoration: none;
+	color:#666;
+	float: left;
+}
+.sanchu{
+	cursor: pointer;
+}
+.buy_cartbottom .buy_cart_choice_all{
+	font-size: 12px;
+    color: #666;
+    margin-bottom: 4px;
+    line-height: 36px;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 44px;
+    height: 44px;
+}
+.buy_cartbottom .jiesuanbox{
+	float: right;
+}
+.buy_cartbottom .shopping{
+	margin-right: 20px;
+}
+.buy_cartbottom .price{
+	font-size: 18px;
+	color: red;
+}
+.buy_cartbottom .zongj{
+	width: 140px;
+	line-height: 44px;
+	background: #ccc;
+	outline: none;
+	border: none;
+	margin-left: 20px;
+	font-size: 16px;
+	color:#fff;
+	vertical-align: top;
+}

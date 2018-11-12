@@ -1,0 +1,297 @@
+.banner1{
+	min-width: 1180px;
+	width: 100%;
+	height: 420px;
+	background: url("http://cdn.ywart.com/material/pc/banner/20180125152740810ab8e43a2.jpg") center center;
+}
+.GROOM{
+	width: 1180px;
+	margin: 0 auto;
+	/*border: 1px solid #000;*/
+}
+.GROOM h3{
+	font-size: 32px;
+	text-align: center;
+	line-height: 45px;
+	margin: 33px 0;
+}
+.GROOM-list{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: space-between;
+}
+.GROOM-list li{
+	width: 383px;
+	height: 100%;
+	list-style: none;
+	float: left;
+	background: #F5F5F5;
+	position: relative;
+}
+.GROOM-list li p{
+	font-size: 22px;
+	line-height: 300px;
+	margin-left: 24px;
+	font-weight: 600;
+}
+.GROOM-list li a{
+	position: absolute;
+	margin-left: 170px;
+	height: 195px;
+	top: 52px;
+	right: 0;
+
+}
+.GROOM-list li a:hover img{
+	transform: scale(1.05);
+}
+.GROOM-list li .shu{
+	margin-left: 185px;
+	margin-top: 12px;
+}
+.GROOM-list li a span{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.GROOM-list li a img{
+	display: block;
+	width: 85%;
+	transition: 0.4s;
+}
+.openAll{
+	width: 157px;
+	height: 55px;
+	margin:54px auto 60px;
+	border: 1px solid #333;
+	border-radius: 4px;
+	text-align: center;
+}
+.openAll span{
+	font-size: 22px;
+	line-height: 53px;
+	padding-right: 20px;
+	background: url(https://cdn.ywart.com/zaoyi/zyicon.jpg) no-repeat right center;
+}
+.hla{
+	width: 1px;
+	background: #000;
+	height: 5000px;
+	position: fixed;
+	top: 0;
+}
+.DELICATE{
+	width: 100%;
+	overflow: hidden;
+	background: #f7f7f7;
+	padding-bottom: 70px;
+}
+.delicate_w{
+	width: 1180px;
+	margin: 0 auto;
+}
+.delicate_w h3{
+	font-size: 26px;
+	margin: 30px 0;
+	text-align: center;
+}
+.del_left{
+	width: 200px;
+	height: 640px;
+}
+.del_left .active{
+	margin: 0;
+}
+.del_left span{
+	display: block;
+	margin-top: 20px;
+	width: 176px;
+	height: 180px;
+}
+.del_left span img{
+	width: 100%;
+	border: 10px solid #fff;
+}
+.del_right{
+	width: 900px;
+	height: 580px;
+	background: #fff;
+	margin-left: 40px;
+	padding:20px;
+	box-sizing: border-box;
+}
+.del_right .container{
+	width: 608px;
+	height: 528px;
+	overflow: hidden;
+}
+.del_right .frame{
+	padding-left: 58px;
+}
+.del_right .frame .writerName{
+	font-size: 18px;
+	font-weight: 800;
+	margin-top: 48px;
+}
+.del_right .frame .ArtworkName{
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 20px;
+}
+.del_right .frame .Line{
+	width: 28px;
+	height: 2px;
+	background: #333;
+	margin-top: 78px;
+}
+.del_right .frame .info{
+	list-style: none;
+	margin-top: 17px;
+	line-height: 2.13;
+	color:#333;
+}
+.del_right .frame .price{
+	font-size: 28px;
+	font-weight: 600;
+	margin-top: 95px;
+}
+.del_right .frame .price span{
+	font-size: 12px;
+	font-weight: 500;
+}
+.ARTIST{
+	width: 1180px;
+	margin: 0 auto;
+}
+.ARTIST h3{
+	font-size: 26px;
+	margin: 30px 0;
+	text-align: center;
+}
+.ARTIST_BOX{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.ARTIST_BOX .B_left{
+	width: 780px;
+	height: 330px;
+	position: relative;
+	color: #fff;
+}
+.ARTIST_BOX .B_left h4{
+	position: absolute;
+	font-size: 30px;
+	top: 50px;
+	left: 30px;
+}
+.ARTIST_BOX .B_left p{
+	position: absolute;
+	width: 200px;
+	font-size: 14px;
+	top: 110px;
+	left: 30px;
+}
+.ARTIST_BOX .B_right{
+	width: 380px;
+	height: 330px;
+	position: relative;
+}
+.ARTIST_BOX .B_right span{
+	position: absolute;
+	bottom: 15px;
+	left: 20px;
+	font-size: 18px;
+	color:#fff;
+}
+.ARTIST_LIST{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.ARTIST_LIST li{
+	position: relative;
+	list-style: none;
+	width: 380px;
+	height: 330px;
+}
+.ARTIST_LIST li span{
+	position: absolute;
+	bottom: 15px;
+	left: 20px;
+	font-size: 18px;
+	color:#fff;
+}
+.WHAT h2{
+	font-size: 26px;
+	margin: 30px 0;
+	text-align: center;
+}
+.WHAT hr{
+	width: 20%;
+	margin: 8px auto;
+	border: 1px solid #000;
+}
+.WHAT p{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	max-width: 800px;
+	font-size: 16px;
+	line-height: 2.4;
+}
+.what_bottom{
+	min-width: 850px;
+	position: relative;
+}
+.what_des{
+	z-index: 5;
+	position: relative;
+	width: 84%;
+	max-width: 850px;
+	height: 425px;
+	margin: 5% auto 140px;
+	background: #000;
+	overflow: hidden;
+	-webkit-box-shadow: 0 13px 9px 0 rgba(0,0,0,0.7);
+}
+.what_des .des_left{
+	color: #eee;
+	padding:8px 24px 0 30px;
+	width: 50%;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+.what_des .des_left li{
+	list-style: none;
+	margin:5% 0;
+}
+.what_des .des_left li b{
+	font-size: 16px;
+	position: relative;
+}
+.what_des .des_left li p{
+	margin-top: 10px;
+}
+.what_des .des_left li .icon-triangle-right{
+	font-size: 12px;
+	position: absolute;
+	top: 5px;
+	left: -18px;
+}
+.what_des .des_right{
+	width: 425px;
+	height: 425px;
+	background: skyblue;
+}
+.what_des .des_right img{
+	width: 100%;
+	height: 100%;
+}
+.what_bottom .img{
+	width: 100%;
+	position: absolute;
+	bottom: -140px;
+}
+

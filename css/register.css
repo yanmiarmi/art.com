@@ -1,0 +1,215 @@
+/*注册*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.banner{
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-image:url("https://cdn.ywart.com/material/mainsite/login/loginbg5.jpg@90Q");
+ 	width: 100%;
+  	height: 100%;
+  	position: fixed;
+ 	top: 0;
+  	left: 0;
+ }
+.men{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.4);
+}
+.box{
+	width: 360px;
+	height: 600px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+}
+.box-logo{
+	width: 100%;
+	height: 170px;
+	text-align: center;
+}
+.box-bottom{
+	width: 300px;
+	height: 340px;
+	padding: 60px 30px 30px 30px;
+	position: relative;
+	background: #fff;
+}
+.closebutton{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+.closebutton img{
+	width: 20px;
+	height: 20px;
+}
+.account{
+	width: 100%;
+	height: 50px;
+	position: relative;
+}
+.account p{
+	font-size: 14px;
+	color: #ddd;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	line-height: 28px;
+	transition: 0.4s;
+}
+.account input{
+	width: 100%;
+	height: 28px;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #ddd;
+}
+.account .visible{
+	height: 30px;
+	display: none;
+	background: #fff;
+	line-height: 30px;
+	padding:0 10px;
+	font-size: 12px;
+	border-radius:3px;
+	position: absolute;
+	top: 0;
+	right: -230px;
+}
+.passworddiv .visible1{
+	height: 30px;
+	display: none;
+	background: #fff;
+	line-height: 30px;
+	padding:0 10px;
+	font-size: 12px;
+	border-radius:3px;
+	position: absolute;
+	top: 0;
+	right: -160px;
+}
+.passworddiv span .icon-zuo{
+	color:#fff;
+	position: absolute;
+	left: -10px;
+}
+.passworddiv span .icon-2{
+	height: 18px;
+	width: 18px;
+	line-height: 18px;
+	text-align: center;
+	margin-top: 6px;
+	background: red;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 18px;
+	position: absolute;
+	left: -50px;
+}
+.account span .icon-zuo{
+	color:#fff;
+	position: absolute;
+	left: -10px;
+}
+.account span .icon-2{
+	height: 18px;
+	width: 18px;
+	line-height: 18px;
+	text-align: center;
+	margin-top: 6px;
+	background: red;
+	color: #fff;
+	border-radius: 50%;
+	font-size: 18px;
+	position: absolute;
+	left: -50px;
+}
+.account .line{
+	width: 100%;
+	height: 2px;
+	background:#CF680A;
+	position: absolute;
+	top: 28px;
+	left: 0;
+	transform: rotateY(90deg);
+	transform-origin: center;
+	transition: 0.4s;
+}
+.imgcode{
+	width: 100%;
+	height: 60px;
+}
+.box-bottom .yanzheng{
+	width: 160px;
+	height: 40px;
+	padding-left: 10px;
+	outline: none;
+	font-size: 16px;
+	border:none;
+	background: #F8F8F8;
+}
+.passworddiv{
+	width: 100%;
+	height: 50px;
+	margin-top: 30px;
+	position: relative;
+}
+.passworddiv p{
+	font-size: 14px;
+	color: #ddd;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	line-height: 28px;
+	transition: 0.4s;
+}
+.passworddiv input{
+	width: 100%;
+	height: 28px;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #ddd;
+}
+.passworddiv .line1{
+	width: 100%;
+	height: 2px;
+	background:#CF680A;
+	position: absolute;
+	top: 28px;
+	left: 0;
+	transform: rotateY(90deg);
+	transform-origin: center;
+	transition: 0.4s;
+}
+.zhuce{
+	width: 100%;
+	height: 44px;
+	background: #CF680A;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 20px;
+}
+.zuce{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 12px;
+}
+.zuce a{
+	color: #CF680A;
+	text-decoration:none;
+}

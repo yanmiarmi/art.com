@@ -1,0 +1,840 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.l{
+	float: left;
+}
+.r{
+	float: right;
+}
+.all{
+	width: 100%;
+	position: relative;
+}
+.header{
+	width: 100%;
+	height: 46px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,0.8);
+	z-index: 999;
+	padding: 8px 20px;
+	box-sizing: border-box;
+}
+.nav{
+	font-size: 14px;
+}
+.nav .back{
+	text-decoration: none;
+	width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+	color:#000;
+	display: inline-block;
+	margin-left: 13px;
+    line-height: 30px;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+    padding-left: 14px;
+    box-sizing: border-box;
+}
+.nav .back .icon-left{
+	font-size: 22px;
+	font-weight: 500;
+	position: absolute;
+	top: 0px;
+	left: 6px;
+}
+.nav span{
+	margin-left: 18px;
+}
+.nav span a{
+	text-decoration: none;
+	color:#000;
+}
+.right{
+	width: 200px;
+	position: relative;
+}
+.headimgbox{
+	width: 62px;
+	height: 30px;
+}
+.headimgbox img{
+	width: 30px;
+	height: auto;
+	float: right;
+
+}
+.right .twpic i img{
+	width: 30px;
+	height: auto;vertical-align: top;
+}
+.topbtns{
+	height: 44px;
+	cursor: pointer;
+	width: 348px;
+	position: absolute;
+	top: 68px;
+	left: 50%;
+	margin-left: -165px;
+}
+.topbtn{
+	width: 116px;
+    font-size: 20px;
+    line-height: 44px;
+    text-align: center;
+    cursor: pointer;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 22px;
+    z-index: 7;
+    position: relative;
+}
+.active{
+	font-weight: 600;
+}
+.xq{
+	background-color: #fff;
+    max-width: 1600px;
+    padding: 8px 7% 60px;
+    padding-top: 140px;
+    margin: auto;
+    top: 0;
+    box-sizing: border-box;
+    position: relative;
+ 	overflow: hidden;
+    width: 100%;
+}
+.goodimg{
+	width: 100%;
+	box-sizing: border-box;
+	float: left;
+	padding-right: 480px;
+	margin-right: -390px;
+	position: relative;
+}
+.goodsimgbox{
+	width: 100%;
+	border: 1px solid #f7f7f7;
+}
+.goodsimgbox .img{
+	width: 100%;
+	height: 470px;
+	text-align: center;
+	position: relative;
+}
+.goodsimgbox .img .imgbox{
+	width: 367px;
+	height: 458px;
+	filter: drop-shadow(2px 3px 6px rgba(0,0,0,0.5));
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	overflow: hidden;
+}
+.goodsimgbox .img .imgbox .men{
+	width: 367px;
+	height: 458px;
+	/*background: #000;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.goodsimgbox .img img{
+	width: 367px;
+	height: 458px;	
+}
+.graw{
+	width: 100px;
+	height: 100px;
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.bigbox{
+	width: 300px;
+	height: 300px;
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	top: 6px;
+	right: -60px;
+	z-index: 99;
+}
+.goodsimgbox .bigbox img{
+	width: 918px;
+	height: 1100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.otherimg{
+	width: 100%;
+	min-height: 124px;
+	padding:20px 3px 10px;
+	box-sizing: border-box;
+	border-top: 1px solid #f7f7f7;
+	margin-bottom: 20px;
+}
+.otherimg .otactive{
+	background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 104px;
+    height: 104px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    float: left;
+	background-image: url("https://cdn.ywart.com/yw/20180919172139750d483fc64.jpg@800h_800w_0e_1l.src");
+}
+.goodsInfo{
+	width: 390px;
+	float: left;
+	overflow: hidden;
+	padding-top: 5px;
+	padding-bottom: 80px;
+}
+.btns{
+	height: 48px;
+	border-bottom: 1px solid #eee;
+}
+.btns .buyInfoBtn{
+	border-bottom: solid 4px #000;
+}
+.goodsInfo span{
+	display: inline-block;
+    height: 34px;
+    border-bottom: solid 4px transparent;
+    vertical-align: middle;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btns .artInfoBtn{
+	float: right;
+	position: relative;
+}
+.btns ._hidden{
+	position: absolute;
+    width: 144px;
+    height: 44px;
+    background-color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    color: #CF680A;
+    left: -143px;
+    font-style: normal;
+    line-height: 44px;
+    vertical-align: middle;
+    top: -5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    background-size: 100% 100%;
+	background-image:url("https://cdn.ywart.com/content/image/点击查看作品信息.png");
+	display: inline;
+}
+.buyInfo{
+	position: relative;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.buyInfo .price{
+	padding:20px 0 0;
+	line-height: 28px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.buyInfo .classify{
+	margin-top: 12px;
+	border-top: 1px solid #eee;
+	overflow: hidden;
+}
+.buyInfo .classify li{
+	float: left;
+	list-style: none;
+	margin-right: 20px;
+	line-height: 46px;
+	font-size: 14px;
+}
+.buyInfo .classify li img{
+	width: 14px;
+	height: 14px;
+	margin-top: -2px;
+	margin-right: 4px;
+	vertical-align: middle;
+}
+.buyInfo .huabox{
+	width: 100%;
+}
+.buyInfo .huabox .tabBtn{
+	font-size: 15px;
+	color:#333;
+	line-height: 46px;
+	border-top: 1px solid #eee;
+}
+.buyInfo .huabox .tabBtn .arrow {
+	transform: rotate(180deg);
+	font-size: 20px;
+	float: right;
+    margin-left: 10px;
+}
+.buyInfo .huabox .tabBtn .f_r{
+	float: right;
+	line-height: 46px;
+	font-size: 15px;
+	font-weight: 500;
+}
+.buyInfo .huabox .chooseframebox{
+	width: 100%;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.buyInfo .huabox .chooseframebox span{
+	display: inline-block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    font-weight: 500;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    margin-right: 16px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+.buyInfo .huabox .chooseframebox span .active{
+	width: 56px;
+	height: 56px;
+	content: 0;
+	position: absolute;
+	border: solid 2px #CF680A;
+    top: -4px;
+    left: -4px;
+    box-sizing: border-box;
+}
+.goodsInfo .buyInfo .huabox .chooseframebox .one{
+	background: url("https://cdn.ywart.com/artwork_frame/frame/2018091815144265773d325bd.png@0-0-1320-1320a.png");
+	background-position: 15px 15px;
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+}
+.goodsInfo .buyInfo .huabox .chooseframebox .two{
+	background-image: url("https://cdn.ywart.com/artwork_frame/frame/20180918155538689af789ade.png@0-0-1320-1320a.png");
+	background-position: 15px 15px;
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+} 
+.goodsInfo .buyInfo .huabox .chooseframebox .thr{
+	background-image: url("https://cdn.ywart.com/artwork_frame/frame/20180918151418539a071c74a.png@0-0-1425-1425a.png");
+	background-position: 15px 15px;
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+}
+.goodsInfo .buyInfo .huabox .chooseframebox .four{
+	background-image: url("https://cdn.ywart.com/artwork_frame/frame/oil03.png@0-0-620-556a.png");
+	background-position: 15px 15px;
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+}
+.buyInfo .huabox .chooseframebox .normal{
+	margin: 0;
+	background-image: url("https://cdn.ywart.com/artwork_frame/frame/oil04.png@0-0-840-840a.png");
+	background-position: 15px 15px;
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+}
+.buyInfo .huabox .chooseframebox .six{
+	background-image: url("https://cdn.ywart.com/artwork_frame/frame/oil05b.png@0-0-460-464a.png");
+	background-position: 15px 15px;
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+}
+.buyInfo .huabox .chooseframebox .seven{
+	background-image: url("https://cdn.ywart.com/artwork_frame/frame/oil01.png@0-0-396-408a.png");
+	background-position: 15px 15px;
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+}
+.buyInfo .huabox .chooseframebox .eight{
+	background-image: url("https://cdn.ywart.com/artwork_frame/frame/oil02.png@0-0-464-358a.png");
+	background-position: 15px 15px;
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+}
+.clearbox:after{
+	content: "0";
+	height: 0;
+	line-height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+.paddingstylebox{
+	width: 100%;
+    padding: 10px 0;
+    font-size: 0;
+    border-top: 1px dashed #ddd;
+    padding-left: 3px;
+}
+.paddingstylebox .paddingstyle{
+	line-height: 30px;
+    font-size: 12px;
+    color: #666666;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+    width: 68px;
+    height: 30px;
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+    position: relative;
+    font-weight: 500;
+}
+.paddingstylebox .paddingstyle .active{
+	content: "";
+    position: absolute;
+    width: 76px;
+    height: 38px;
+    border: solid 2px #CF680A;
+    top: -4px;
+    left: -4px;
+    box-sizing: border-box;
+}
+.buyBtn{
+	width: 100%;
+	padding-top: 20px;
+	border-top: 1px solid #ddd;
+	color:#666;
+	font-size: 14px;
+}
+.adshopcar{
+	width: 100%;
+	height: 40px;
+	background: #000;
+	color:#fff;
+	font-size: 16px;
+	letter-spacing: 2px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 40px;
+}
+.buyInfo .buyBtn .pinfo{
+	margin-top: 18px;
+	margin-right: 14px;
+	width: 100%;
+	text-align: left;
+}
+.buyInfo .buyBtn .pinfo span{
+	font-size: 14px;
+	font-weight: 500;
+}
+.buyInfo .buyBtn .pinfo span:nth-child(2){
+	margin-right: 24px;
+}
+.xq .share{
+	position: absolute;
+    right: 7%;
+    /*border: 1px solid #000;*/
+    bottom: 60px;
+    line-height: 34px;
+    z-index: 2;
+    color: #999;
+    font-size: 14px
+}
+.xq .share .like{
+	height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #b5b5b5;
+    text-align: center;
+    text-decoration: none;
+}
+.all .xq .share .like .icon-xin{
+	font-size: 19px;
+	margin-right: 5px;
+}
+.all .xq .share .sharebtns .icon-tubiao212{
+	font-size: 20px;
+	margin-right: 5px;
+}
+.xq .share .sharebtns{
+	display: inline-block;
+    vertical-align: middle;
+    height: 34px;
+    width: 88px;
+    text-align: center;
+    margin-left: 22px;
+    position: relative;
+    color: #999;
+}
+.all .xq .share .like .countlike{
+	margin-left: 5px;
+}
+.workInf{
+	width: 100%;
+	padding: 39px 0 60px 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+.workInf p{
+	width: 150px;
+    height: 37px;
+    line-height: 37px;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    margin: auto;
+}
+.workInf .arter{
+	position: relative;
+    width: 100%;
+    padding-top: 60px;
+    text-align: center;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.workInf .arter .imgbox{
+	position: relative;
+    width: 100%;
+    height: 140px;
+    text-align: center;
+}
+.workInf .arter .imgbox img{
+	width: 140px;
+    height: 100%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.workInf .arter .name{
+	font-size: 18px;
+	line-height: 25px;
+	margin-top: 14px;
+}
+.workInf .arter .name a{
+	text-decoration: none;
+	color:#000;
+}
+.workInf .arter .name span{
+	margin-left: 2px;
+	font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+	background: url(https://cdn.ywart.com/material/artistIcon/ywart_artist_icon_level_0.png);
+    background-size: 100% 100%;
+}
+.workInf .arter .another{
+	font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    color: #666;
+}
+.workInf .arter .another a{
+	text-decoration: none;
+	color:inherit;
+}
+.workInf .arter .another a span{
+	display: inline-block;
+	width: 25px;
+	color:#000;
+	font-weight: 700;
+}
+.workInf .arter .more{
+	text-decoration: none;
+	font-size: 14px;
+	margin-top: 19px;
+	line-height: 20px;
+	color:#000;
+}
+.productsInformation{
+	width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 44px;
+    list-style-type: none;
+    color: #333;
+    border-top: dashed 1px #979797;
+    font-size: 16px;
+}
+.productsInformation .clearfix{
+	width: 100%;
+	height: 53px;
+    box-sizing: border-box;
+    border-bottom: dashed 1px #979797;
+    display: block;
+}
+.productsInformation .clearfix div{
+	width: 28%;
+    margin-right: 2%;
+    text-align: left;
+    float: left;
+    padding: 16px 0 16px 100px;
+    box-sizing: border-box;
+}
+.productsInformation .clearfix div h1{
+	font-size: 16px;
+	font-weight: normal;
+	display: inline-block;
+	margin-left: 5px;
+}
+.workDes{
+	position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.workDes .p{
+	width: 124px;
+    height: 37px;
+    line-height: 37px;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    margin: auto;
+}
+.workDes .text{
+	padding: 96px 96px 70px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+.workDes .yinghao{
+	font-size: 180px;
+	font-family: Arial;
+	color:#eee;
+	position: absolute;
+}
+.workDes .yinghaoleft{
+	top: 30px;
+    left: 10px;
+}
+.workDes .yinghaoright{
+	bottom: 0;
+	right: 10px;
+}
+.workDes .text i{
+	line-height: 36px;
+	display:block;
+	font-size: 18px;
+	font-family: serif;
+}
+.onePingxi{
+	position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    padding: 0 96px;
+    box-sizing: border-box;
+    margin-bottom: 70px;
+    line-height: 300px;
+}
+.onePingxi img{
+	float: left;
+    width: 300px;
+    height: 300px;
+    margin-right: -300px;
+}
+.workDes .onePingxi .textDes{
+	overflow: hidden;
+    width: 100%;
+    max-height: 300px;
+    padding-left: 400px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    color: #666;
+    font-size: 14px;
+    line-height: 2.14;
+}
+.onePingxi .textDes p{
+	text-align: justify;
+}
+.commentsection{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 96px 40px;
+    box-sizing: border-box;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.commentheader{
+	padding-bottom: 30px;
+}
+.commentheader .pinglun{
+	font-size: 18px;
+}
+.commentheader #comment{
+	width: 100%;
+    height: 70px;
+    margin-top: 20px;
+    resize: none;
+    font-size: 14px;
+    color: #999;
+    padding: 6px;
+    padding-left: 10px;
+    padding-top: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 20px;
+    border: 0;
+    background-color: #f8f8f8;
+}
+.commentheader #commentbtn{
+	font-size: 14px;
+    line-height: 27px;
+    display: block;
+    width: 100px;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #CF680A;
+    position: relative;
+    left: 100%;
+    margin-left: -100px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+.smallRemind{
+	font-size: 14px;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    max-width: 1200px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+  .smallRemind .text{
+  	font-size: 16px;
+    text-align: left;
+    color: #000000;
+    line-height: 22px;
+    padding: 23px 96px;
+    cursor: pointer;
+  } 
+  .smallRemind .text .icon-bookmark{
+  	width: 30px;
+    text-align: center;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+  }
+ .smallRemind .text .f-r{
+	font-size: 22px;
+	float: right;
+ }
+ .detail_bottom{
+ 	width: 100%;
+    background-color: #f8f8f8;
+    padding-bottom: 100px;
+    overflow: hidden;
+ }
+ .detail_bottom .maybeLike{
+    margin: 0 0 10px 0;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 40px;
+ }
+ .detail_bottom .ITEMBOX{
+ 	width: 1200px;
+    margin: auto;
+    position: relative;
+    padding: 10px 0;
+ }
+ .detail_bottom .ITEMBOX .ITEM{
+ 	border-radius: 3px;
+    float: left;
+    position: relative;
+    word-spacing: normal;
+    margin-right: 20px;
+    width: 280px;
+    height: 400px;
+    overflow: hidden;
+    background-color: #fff;
+    margin-top: 46px;
+ }
+ .detail_bottom .ITEMBOX .ITEM .img{
+ 	width: 280px;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+ }
+ .detail_bottom .ITEMBOX .ITEM .img img{
+ 	width: 100%;
+ 	height: 100%;
+ }
+ .detail_bottom .ITEMBOX .ITEM .info_box{
+ 	width: 280px;
+    height: 120px;
+    display: table-cell;
+    color: #666;
+    font-size: 12px;
+    text-align: left;
+    padding: 0 20px;
+    vertical-align: middle;
+    line-height: 18px;
+ }
+ .detail_bottom .ITEMBOX .ITEM .info_box h4{
+    display: inline;
+    font-weight: 500;
+    color: #666;
+ }
+  .detail_bottom .ITEMBOX .ITEM .info_box .price{
+  	text-align: left;
+    font-weight: 600;
+    color: #000;
+  } 
+ 
+
+    
+    
+
+
+    
+    
+
+    
+
+

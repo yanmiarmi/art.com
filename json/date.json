@@ -1,0 +1,57 @@
+{
+	"name":"油画",
+	"id":"101",
+	"show":"艺术天堂，油画，布画，水彩应有尽有",
+	"frame":[{
+		"name":"油画",
+		"decs":[{
+			"img":"https://cdn.ywart.com/yw/20160422145358401de5e2b7b.jpg@560h_560w_1e_1c_1wh_90Q",
+			"name":"曜灵",
+			"year":"2013",
+			"typesize":"布面油画 50.00X110.00cm",
+			"price":"¥70,350"
+		},{
+			"img":"https://cdn.ywart.com/yw/20160705163207522d2a8159c.jpg@560h_560w_1e_1c_1wh_90Q",
+			"name":"望梅No.2",
+			"year":"2008",
+			"typesize":"布面油画 50.00X120.00cm",
+			"price":"¥20,350"
+		},{
+			"img":"https://cdn.ywart.com/yw/20160901160600951d269ce91.jpg@560h_560w_1e_1c_1wh_90Q",
+			"name":"似花系列—只争朝夕之五",
+			"year":"2015",
+			"typesize":"布面油画 70.00X140.00cm",
+			"price":"¥30,350"
+		},{
+			"img":"https://cdn.ywart.com/yw/20160908171003946f3f2faae.jpg@560h_560w_1e_1c_1wh_90Q",
+			"name":"狩猎者",
+			"year":"2016",
+			"typesize":"布面油画 80.00X80.00cm",
+			"price":"¥16,580"
+		},{
+			"img":"https://cdn.ywart.com/yw/201705261046533062e8344d2.jpg@560h_560w_1e_1c_1wh_90Q",
+			"name":"施洗",
+			"year":"2017",
+			"typesize":"布面油画 60.00X80.00cm",
+			"price":"¥10,260"
+		},{
+			"img":"https://cdn.ywart.com/yw/20170601112900200e574648e.jpg@560h_560w_1e_1c_1wh_90Q",
+			"name":"鹿",
+			"year":"2016",
+			"typesize":"布面油画 15.00X22.00cm",
+			"price":"¥1,120"
+		},{
+			"img":"https://cdn.ywart.com/yw/2017083015360607831a343f4.jpg@560h_560w_1e_1c_1wh_90Q",
+			"name":"粉色记忆No.2",
+			"year":"2015",
+			"typesize":"布面油画 100.00X40.00cm",
+			"price":"¥2,350"
+		},{
+			"img":"https://cdn.ywart.com/yw/20171108150141325e76d5da3.jpg@560h_560w_1e_1c_1wh_90Q",
+			"name":"野兔",
+			"year":"2017",
+			"typesize":"布面油画 60.00X80.00cm",
+			"price":"¥14,260"
+		}]
+	}]
+}
